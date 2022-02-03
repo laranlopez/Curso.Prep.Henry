@@ -153,7 +153,7 @@ describe('obtenerResto(x, y)', function() {
 describe('esPar(num)', function() {
   it('Deberia devolver true si el numero es par sino false', function() {
     expect(esPar(6)).toBe(true);
-    expect(esPar(7)).toBe(false);
+    expect(esPar(7)).toBe(false); 
     expect(esPar(0)).toBe(true);
   });
 });
